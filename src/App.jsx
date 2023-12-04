@@ -13,12 +13,12 @@ function App() {
         <BrowserRouter>
           <Header />
           <Routes>
-          <Route path="/" element={<Movies />}></Route>
-            <Route path="/movies" element={<Movies />}></Route>
-            <Route path="/auth/login" element={<Login />}></Route>
-            <Route path="/auth/signup" element={<Signup />}></Route>
-            <Route path="/movies/:movieId" element={<DetailsCard />}></Route>
-            <Route path="*" element={<ErrorPage />}></Route>
+          <Route path="/" element={<Movies />}/>
+            <Route path="/movies" element={<Movies />}/>
+            <Route path="/auth/login" element={<Login />}/>
+            <Route path="/auth/signup" element={<Signup />}/>
+            <Route path="/movies/:movieId" element={<DetailsCard />}/>
+            <Route path="*" element={<ErrorPage />}/>           
           </Routes>
         </BrowserRouter>
   )

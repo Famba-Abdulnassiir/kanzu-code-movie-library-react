@@ -10,12 +10,10 @@ import { MovieProvider } from './context/MovieContext.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-
     <MantineProvider>
       <MovieProvider>
         <App />
       </MovieProvider>
     </MantineProvider>
   </React.StrictMode>
-  ,
 )

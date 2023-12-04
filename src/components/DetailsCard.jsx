@@ -65,9 +65,9 @@ export default function DetailsCard() {
     /* End of movie Delete */
 
     return (
-        <div className='bg-[#0f1526] '>
+        <div className='bg-[#0f1526]'>
             <Card shadow="sm" padding="lg" radius="md" withBorder className='flex flex-row items-center justify-evenly gap-7 bg-transparent text-white'>
-                <div>
+                <div className='mt-auto'>
                     <Image
                         src={movie.imageUrl}
                         height={160}
